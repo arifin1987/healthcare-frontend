@@ -26,4 +26,10 @@ export const theme = createTheme({
       },
     },
   },
+  typography: {
+    body1: {
+      color: "#001134CC",
+    },
+  },
 });
+theme.shadows[1] = "0px 5px 22px lightgray";
